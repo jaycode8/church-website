@@ -13,10 +13,19 @@ export default {
                 "pastor": "url(./src/assets/pastor.jpg)",
             },
             backgroundColor: {
+                "primary": "#2F3B6D",
+                "cards": "#2AF6A2",
                 "clear": "rgba(0,0,0,0.6)"
+            },
+            colors: {
+                "cards": "#2AF6A2",
+                "fc": "#F2F3F6"
             },
             gridTemplateColumns: {
                 "40": "40% 60%"
+            },
+            gridTemplateRows: {
+                "40": "30% 70%"
             },
             screens: {
                 "phone": "400px"

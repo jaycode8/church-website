@@ -10,10 +10,10 @@ const Events = () => {
             <div className="w-full grid place-items-center">
                 <h3 className="uppercase">events</h3>
                 <h1 className="uppercase text-2xl">upcoming events</h1>
-                <div className="w-full my-2 grid md:grid-cols-2 gap-2 sm:gap-4">
+                <div className="w-full my-2 grid phone:grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-4">
                     {
                         data.map((dt, index) => (
-                            <div className="w-full h-36 phone:h-44 sm:h-48 md:h-56 shadow-normal grid grid-cols-40 sm:grid-cols-2 rounded-lg overflow-hidden">
+                            <div className="w-full h-80 shadow-normal grid grid-rows-2 rounded-lg overflow-hidden cursor-pointer">
                                 <div className="w-full h-full overflow-hidden">
                                     <img src={church} alt="church" className="w-full h-full object-cover" />
                                 </div>
