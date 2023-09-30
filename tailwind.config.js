@@ -7,10 +7,10 @@ export default {
     theme: {
         extend: {
             backgroundImage: {
-                "landing": "url(./src/assets/landing.jpg)",
-                "about": "url(./src/assets/v4.jpg)",
-                "v1": "url(./src/assets/v1.jpg)",
-                "pastor": "url(./src/assets/pastor.jpg)",
+                "landing": "url(/src/assets/landing.jpg)",
+                "about": "url(/src/assets/v4.jpg)",
+                "v1": "url(/src/assets/v1.jpg)",
+                "pastor": "url(/src/assets/pastor.jpg)",
             },
             backgroundColor: {
                 "primary": "#2F3B6D",
