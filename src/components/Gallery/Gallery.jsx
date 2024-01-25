@@ -2,10 +2,9 @@
 
 const Gallery = () => {
     return (
-        <div className="w-full h-auto py-8 px-2 phone:px-8 sm:px-14 md:px-20" id="gallery">
+        <div className="w-full h-auto py-16 px-2 phone:px-8 sm:px-14 md:px-20" id="gallery">
             <div className="w-full grid place-items-center">
                 <h3 className="uppercase">gallery</h3>
-                {/*<h1 className="uppercase text-2xl">our gallery</h1>*/}
                 <p className="">We have a strong sense of communism with our believers</p>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-4">
                     <div className="grid gap-4">
